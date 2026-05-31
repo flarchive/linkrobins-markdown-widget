@@ -1,0 +1,33 @@
+{
+    "name": "linkrobins/markdown-widget",
+    "description": "Markdown widget for fof/forum-widgets-core",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karl Bullock",
+            "email": "karl@linkrobins.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "flarum/core": "^2.0",
+        "fof/forum-widgets-core": "^2.0.0-beta.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkRobins\\MarkdownWidget\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Link Robins Markdown",
+            "category": "forum-widget",
+            "icon": {
+                "name": "fab fa-markdown",
+                "color": "#07adcc",
+                "backgroundColor": "#1a2535"
+            }
+        }
+    }
+}
